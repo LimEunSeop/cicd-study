@@ -1,0 +1,9 @@
+name: Download Workflow 1
+on: [push]
+jobs:
+  download-job:
+    steps:
+      - name: Download a single artiface
+        uses: actions/download-artifact@v3
+        with:
+          name: output-lof-file
