@@ -6,9 +6,11 @@ jobs:
     steps:
       - run: ls -l
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.3.0
         with:
-          node-version: '14'
+          node-version: 14
+          check-latest: true
       - run: npm install -g bats
       - run: bats -v
       - run: ls -l
