@@ -1,7 +1,7 @@
 name: Upload Worklow 1
 on: [push]
 jobs:
-  download-job:
+  example-job:
     name: Save output
     runs-on: ubuntu-latest
     steps:
