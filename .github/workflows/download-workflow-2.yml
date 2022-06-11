@@ -7,4 +7,4 @@ jobs:
       - name: Download a single artiface
         uses: actions/download-artifact@v3
         with:
-          name: output-lof-file
+          name: output-log-file
