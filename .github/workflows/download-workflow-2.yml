@@ -2,6 +2,7 @@ name: Download Workflow 1
 on: [push]
 jobs:
   download-job:
+    runs-on: ubuntu-latest
     steps:
       - name: Download a single artiface
         uses: actions/download-artifact@v3
