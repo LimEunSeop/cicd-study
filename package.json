@@ -1,0 +1,23 @@
+{
+  "name": "study-github-features",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testfile.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LimEunSeop/circleci-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LimEunSeop/circleci-test/issues"
+  },
+  "homepage": "https://github.com/LimEunSeop/circleci-test#readme",
+  "dependencies": {
+    "jest": "^28.1.1"
+  }
+}
