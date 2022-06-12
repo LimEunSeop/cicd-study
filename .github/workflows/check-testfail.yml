@@ -8,3 +8,4 @@ jobs:
       - run: npm install
       - run: npm run test
       - name: is this step executed if test fails?
+        run: ls -l
