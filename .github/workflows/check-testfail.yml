@@ -1,0 +1,9 @@
+name: Check if Job fail when a test fails
+on: [push]
+jobs:
+  failing-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: run failing test
+        run: npm run test
