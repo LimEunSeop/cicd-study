@@ -9,3 +9,8 @@ jobs:
       - run: npm run test
       - name: is this step executed if test fails?
         run: ls -l
+  success-job:
+    needs: failing-test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo All test
